@@ -1,0 +1,40 @@
+{
+  "name": "pixi-webpack-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js --mode development",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerzakm/pixi-webpack-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerzakm/pixi-webpack-starter-kit/issues"
+  },
+  "homepage": "https://github.com/jerzakm/pixi-webpack-starter-kit#readme",
+  "dependencies": {
+    "pixi.js": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "@types/pixi.js": "^4.8.8",
+    "@types/webpack-env": "^1.14.0",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-link-type-plugin": "^1.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
